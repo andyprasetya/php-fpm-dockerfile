@@ -24,7 +24,7 @@ RUN apt-get install -y \
     libpq-dev \
     libz-dev \
     nano \
-    postgresql-client-12 \
+    postgresql-client-11 \
     sqlite3
 
 RUN docker-php-ext-configure gd \
